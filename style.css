@@ -1,0 +1,31 @@
+body {
+  background-color: #4C566A;
+  font-family: sans-serif;
+}
+
+table, th, td {
+  border:2px solid black;
+  padding: 22px;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+th {
+    text-align: right;
+    font-weight: 400;
+    height: 72px;
+    background-color: white;
+}
+ td {
+    text-align: center;
+    cursor: pointer;
+    background-color: #d8dee9;
+}
+
+.empty {
+    border: 0;
+    cursor: default; 
+    background-color: #4C566A;
+}
